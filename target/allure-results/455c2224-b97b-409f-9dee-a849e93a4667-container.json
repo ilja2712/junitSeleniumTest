@@ -1,0 +1,1 @@
+{"uuid":"455c2224-b97b-409f-9dee-a849e93a4667","name":"checkSpecialSymbolsInLogin()","children":["3dfc0986-8dc8-4371-9ae1-5087a2710444"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432231585,"stop":1646432231628}],"links":[],"start":1646432230603,"stop":1646432231629}

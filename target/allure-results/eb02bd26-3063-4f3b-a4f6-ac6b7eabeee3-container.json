@@ -1,0 +1,1 @@
+{"uuid":"eb02bd26-3063-4f3b-a4f6-ac6b7eabeee3","name":"checkValidLoginWithSpaces()","children":["d2ad85d0-643e-4a0b-a7fe-f00bcf1eaf8c"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432227594,"stop":1646432227606}],"links":[],"start":1646432225319,"stop":1646432227608}

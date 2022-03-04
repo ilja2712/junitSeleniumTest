@@ -1,0 +1,1 @@
+{"uuid":"f7a0c626-9c32-45fd-9969-b6fed4541f9a","name":"checkOnlyLogin()","children":["796056ae-028b-41aa-82d0-a80611757330"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432240580,"stop":1646432240588}],"links":[],"start":1646432239686,"stop":1646432240589}

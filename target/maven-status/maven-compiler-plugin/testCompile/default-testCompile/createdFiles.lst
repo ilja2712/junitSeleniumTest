@@ -1,0 +1,3 @@
+tests/positive/LoginPositiveTest.class
+tests/negative/LoginNegativeTest.class
+base/BaseTest.class

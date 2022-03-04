@@ -1,0 +1,1 @@
+{"uuid":"5acbf77f-c692-4d99-b819-db5b12cc782b","name":"checkUppercaseInLogin()","children":["7e898169-e6f9-4d2d-a98b-6bdc4d8cbc19"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432230591,"stop":1646432230601}],"links":[],"start":1646432228997,"stop":1646432230602}

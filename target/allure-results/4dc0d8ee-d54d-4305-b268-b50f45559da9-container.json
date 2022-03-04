@@ -1,0 +1,1 @@
+{"uuid":"4dc0d8ee-d54d-4305-b268-b50f45559da9","name":"checkAuthToHomePage()","children":["72323321-e415-4abb-8d44-21f57537f819"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432221532,"stop":1646432221543}],"links":[],"start":1646432218550,"stop":1646432221602}

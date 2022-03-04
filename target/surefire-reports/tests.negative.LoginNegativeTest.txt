@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: tests.negative.LoginNegativeTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 18.606 s <<< FAILURE! - in tests.negative.LoginNegativeTest
+checkValidLoginWithSpaces  Time elapsed: 2.114 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Kozlikov.local', ip: 'fe80:0:0:0:8ec:22cb:d78d:defe%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/f7/8vl0myw12xn...}, goog:chromeOptions: {debuggerAddress: localhost:62516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87b1afb579d44390695dfbe205a37eed
+	at tests.negative.LoginNegativeTest.checkValidLoginWithSpaces(LoginNegativeTest.java:66)
+
+checkValidPasswordWithSpaces  Time elapsed: 1.382 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Kozlikov.local', ip: 'fe80:0:0:0:8ec:22cb:d78d:defe%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/f7/8vl0myw12xn...}, goog:chromeOptions: {debuggerAddress: localhost:62516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87b1afb579d44390695dfbe205a37eed
+	at tests.negative.LoginNegativeTest.checkValidPasswordWithSpaces(LoginNegativeTest.java:76)
+
+checkUppercaseInLogin  Time elapsed: 1.605 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Kozlikov.local', ip: 'fe80:0:0:0:8ec:22cb:d78d:defe%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/f7/8vl0myw12xn...}, goog:chromeOptions: {debuggerAddress: localhost:62516}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87b1afb579d44390695dfbe205a37eed
+	at tests.negative.LoginNegativeTest.checkUppercaseInLogin(LoginNegativeTest.java:96)
+
+checkTestData  Time elapsed: 0.919 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Неверные данные для авторизации.> but was: <Неверные данные для авторизации>
+	at tests.negative.LoginNegativeTest.checkTestData(LoginNegativeTest.java:36)
+

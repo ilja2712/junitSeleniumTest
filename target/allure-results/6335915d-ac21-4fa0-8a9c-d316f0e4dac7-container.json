@@ -1,0 +1,1 @@
+{"uuid":"6335915d-ac21-4fa0-8a9c-d316f0e4dac7","name":"checkEmptyField()","children":["17f54f77-8fc3-46c3-8f09-be5e5a12a6b4"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432233917,"stop":1646432234079}],"links":[],"start":1646432233316,"stop":1646432234080}

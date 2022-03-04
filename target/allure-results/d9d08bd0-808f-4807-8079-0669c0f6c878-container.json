@@ -1,0 +1,1 @@
+{"uuid":"d9d08bd0-808f-4807-8079-0669c0f6c878","name":"checkAuthUserAfterBackPage()","children":["0432eb37-c628-454a-a39b-50957789682c"],"befores":[],"afters":[{"name":"clearCookieAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1646432233130,"stop":1646432233172}],"links":[],"start":1646432231630,"stop":1646432233174}
